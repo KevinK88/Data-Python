@@ -14,9 +14,7 @@ class RandomWalk():
 			y_direction = choice([-1,1])
 			y_distance = choice([0,1,2,3,4])
 			y_step = y_direction * y_distance
-            z = 0
-            c = 0
-            d = 0
+
 			if x_step == 0 and y_step == 0:
 				continue
 			next_x = self.x_value[-1] + x_step
