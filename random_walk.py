@@ -19,6 +19,5 @@ class RandomWalk():
 				continue
 			next_x = self.x_value[-1] + x_step
 			next_y = self.y_value[-1] + y_step
-            next_z = 0
 			self.x_value.append(next_x)
 			self.y_value.append(next_y)
